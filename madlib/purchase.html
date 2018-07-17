@@ -1,0 +1,62 @@
+﻿<html>
+<head>
+<style>
+form{
+	border:10px solid white;
+}
+.d1{
+	width=50%;
+	border-radius: 50%;
+}	
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button{
+	background-color: green;
+	color: white;
+	padding: 12px 20px;
+	margin: 12px 0;
+	width: 150px;
+	border-radius:30%;
+}
+.d3{
+	 position: absolute;
+    top: 43px;
+    right: 18px;
+}
+marquee{
+font-size:25px;
+}
+</style>
+</head>
+<body style="background-color:lightblue;">
+<marquee>“A room without books is like a body without a soul.” 
+ --Marcus Tullius Cicero.......
+“Good friends, good books, and a sleepy conscience: this is the ideal life.” 
+--Mark Twain.........
+“If one cannot enjoy reading a book over and over again, there is no use in reading it at all.” 
+ --Oscar Wilde.......</marquee>
+<form method="get" action="confirm.jsp">
+<div class="d2">
+<label><b>Name</b></label></br>
+<input type="text" name="uname" placeholder="Enter your name" required></br>
+<label><b>Mobile number</b></label></br>
+<input type="text" name="upass" placeholder="Enter your mobile number" required></br>
+<label><b>Address:</b></label></br>
+<textarea row="10" cols="55" name="addr" required></textarea></br>
+<label><b>Pincode:</b></label></br>
+<input type="text" name="pin" required>
+</div>
+<h3>Price RS.50 !!!</h3>
+<input type="submit" value="place order">
+<div class="d3">
+<img src="free-delivery-truck-red.jpg" alt="oops!!" width="300" height="250">
+</div>
+</form> 
+</body>
+</html>
